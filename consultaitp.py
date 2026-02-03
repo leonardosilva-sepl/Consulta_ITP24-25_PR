@@ -193,7 +193,7 @@ entidades_filtradas = [
 ] if termo else entidades_ano
 
 if termo and not entidades_filtradas:
-    st.warning(f"⚠️ Nenhuma entidade encontrada contendo '{termo}'.")
+    st.warning(f"⚠️ Nenhuma entidade encontrada contendo '{termo}' no ano selecionado.")
     st.stop()
 
 st.caption(f"{len(entidades_filtradas)} entidade(s) encontradas")
