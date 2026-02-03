@@ -251,4 +251,4 @@ if gerar:
         st.error(f"❌ Erro ao gerar planilha: {e}")
 
 st.markdown("---")
-st.caption(f"🔄 {datetime.now().strftime('%d/%m às %H:%M')} | Fonte: Programa Nacional de Transparência Pública 2024 e 2025")
+st.caption(f"🔄 {datetime.now().strftime('%d/%m')} | Fonte: Programa Nacional de Transparência Pública 2024 e 2025")
